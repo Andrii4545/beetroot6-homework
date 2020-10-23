@@ -9,6 +9,27 @@
     height: 800px;
     font-family: "Times New Roman", Times, serif;
 }
+#head1{
+    margin: 20px;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #A98083;
+    font-size: 12px;
+}
+#head2{
+    font-size: 48px;
+    color: #00BCB8;
+    text-transform: uppercase;
+    line-height: 30px;
+}
+#head3{
+    font-size: 18px;
+    text-transform: uppercase;
+    color: #DCA9A4;
+    font-family: 'PT Sans', sans-serif;
+    margin: 20px;
+    text-align: center;
+}
 .head{
     display: flex;
     flex-direction: column;
@@ -40,14 +61,6 @@ p{
     display: flex;
     flex-direction: column;
 }
-/*img{
-    color: red;
-}
-.icon:hover{
-    fill: red;
-
-}*/
-
 .icon:hover {
     background-color: rgba(0, 110, 255, 0.6);
     color: white;
@@ -59,13 +72,3 @@ p{
 .icon:hover .text{
     color: white;
 }
- /*.icon:hover >.svg path{
-     fill: red;
- }/*
-
-
-
-/*svg:hover path{
-    fill: red;
-
-}*/
